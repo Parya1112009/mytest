@@ -1,4 +1,6 @@
-n = 1
-for i in range(7,1,-1):
- n = i*(n)
-print n 
+list = [18,289,3,4,5,6]
+for line in list:
+  x =line[0]
+  y = line[1]
+print x  
+print y  
