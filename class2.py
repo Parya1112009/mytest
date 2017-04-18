@@ -1,11 +1,11 @@
-class dogs:
-  tricks = []
-  def __init__(self,name):
-    self.name=name
-  def addtricks(self,trick): 
-    self.tricks.append(trick)
-d = dogs("pepsi")
-e = dogs("rony")
-d.addtricks("rollover") 
-e.addtricks("jumpover")
-print d.tricks 
+import class1
+mycar  = class1.car("orange","hundai","2016","priya")
+ravicar  = class1.car("blue","crv","2016","ravi")
+mycar.show()
+ravicar.show()
+print (class1.car.valid_ratings) 
+print (class1.__name__) 
+print (class1.car.__doc__) 
+print (class1.car.__dict__) 
+print (class1.car.__module__) 
+print (class1.car.__bases__) 
