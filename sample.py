@@ -1,3 +1,5 @@
-dict ={"name":"priyanka","age":"29","status":"married","children":"eva"}
-for k,v in dict.items():
-  print k + '.' + k,v 
+import re
+str = "hello world"
+match = re.search(r"(h.....)(w....)",str)
+print match.group(0)
+ 
