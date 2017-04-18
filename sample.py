@@ -1,2 +1,3 @@
-f = lambda x,y:x+y
-print f(2,4) 
+dict ={"name":"priyanka","age":"29","status":"married","children":"eva"}
+for k,v in dict.items():
+  print k + '.' + k,v 

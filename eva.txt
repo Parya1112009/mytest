@@ -1,1 +1,4 @@
-priyanka priyanka arya priyanka
+name	sirname    age		hobby 
+priyanka	panwar	30	watchingtv 
+ravi	arya	36	playing 
+eva	lakra	9	cartoon 

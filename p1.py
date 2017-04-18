@@ -1,8 +1,6 @@
-import time
-import calendar 
-#time = time.time()
-#time1 = time.clock()
-#time1 = time.localtime(time.time()) 
-time1 = time.asctime(time.localtime(time.time())) 
-#time1 = time.ctime() 
-print time1 
+dict ={"name":"priyanka","age":"29","status":"married","children":"eva"}
+for k,v in dict.items():
+  print k,'corresponds to',v
+print "\n***********take a look below  at dict.iteritems**************\n"
+for k,v in dict.iteritems():
+  print k,'corresponds to',v 
