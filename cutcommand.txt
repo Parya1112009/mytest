@@ -1,0 +1,240 @@
+    1  which python
+    2  python
+    3  mkdir python_practice
+    4  chmod 777 python_practice/
+    5  cd python_practice/
+    6  ls -lrt
+    7  vi for.py
+    8  chmod 777 for.py 
+    9  python for.py 
+   10  vi for.py
+   11  python for.py 
+   12  vi for1.py
+   13  pwd
+   14  ls -lrt
+   15  sshd restart
+   16  sudo sshd restart
+   17  sudo sshd start
+   18  sudo ssh start
+   19  sudo /etc/init/sshd start
+   20  sudo /etc/init.d/ssh start
+   21  sudo service ssh start
+   22  sudo service ssh restart
+   23  sudo service 
+   24  sudo service all
+   25  sudo service --status -all
+   26  sudo service --status-all
+   27  cd python_practice/
+   28  ls -lrt
+   29  cd regulerexpressions/
+   30  ls -lrt
+   31  vi re1.py 
+   32  vi re5.py 
+   33  vi re1.py 
+   34  vi re7.py 
+   35  vi re.py 
+   36  vi re6.py 
+   37  vi re9.py 
+   38  vi matchh.py 
+   39  python matchh
+   40  python matchh.py 
+   41  vi matchh.py 
+   42  python matchh.py 
+   43  vi matchh.py 
+   44  python matchh.py 
+   45  vi matchh.py 
+   46  python matchh.py 
+   47  vi matchh.py 
+   48  python matchh.py 
+   49  vi matchh.py 
+   50  python matchh.py 
+   51  vi matchh.py 
+   52  python matchh.py 
+   53  vi matchh.py 
+   54  python matchh.py 
+   55  ls -lrt
+   56  python matchh1.py 
+   57  vi matchh1.py 
+   58  cat matchh1.py 
+   59  vi beg.py 
+   60  vi end.py 
+   61  vi split.py 
+   62  vi sub.py 
+   63  cd ..
+   64  ls -lrt
+   65  cd socket/
+   66  ls -lrt
+   67  vi validipaddress.py
+   68  python validipaddress.py 
+   69  vi validipaddress.py
+   70  python validipaddress.py 
+   71  vi validipaddress.py
+   72  vi client.py 
+   73  ls -lrt
+   74  vi validipaddress.py
+   75  cd ..
+   76  ls -lrt
+   77  locate "try"
+   78  locate "except"
+   79  locate -9 "except"
+   80  locate --9 "except"
+   81  man locate
+   82  cd interview/
+   83  vi tryandexcept.py 
+   84  vi tryandexcept2.py 
+   85  vi tryandexcepti2.py 
+   86  vi tryandexcept.py 
+   87  ls -lrt
+   88  cd ../socket/
+   89  ls -lrt
+   90  vi validipaddress.py 
+   91  python validipaddress.py 
+   92  vi validipaddress.py 
+   93  locate "urllib"
+   94  locate ".open"
+   95  cd ..
+   96  ls -lrt
+   97  cd sample/
+   98  ls -lrt
+   99  cd ..
+  100  ls -lrt
+  101  vi history_commands 
+  102  vi commandslearning.txt 
+  103  locate -n 1 ".open"
+  104  locate -n 19 ".open"
+  105  vi commandslearning.txt 
+  106  find ~ -name "eva.txt"
+  107  `
+  108  ~
+  109  find  -name "eva.txt"
+  110  cd ../../
+  111  find  -name "eva.txt"
+  112  pwd
+  113  cd -
+  114  cd priyanka/python_practice/
+  115  find  -name "eva.txt"
+  116  find fileoperations/ -name "eva.txt"
+  117* find u
+  118* 
+  119  vi commandslearning.txt 
+  120  grep -r "url"
+  121  grep -r "url" /
+  122  grep -r "url" ~
+  123  grep -r "url" 
+  124  man grep
+  125  man find
+  126  vi commandslearning.txt 
+  127  find /home -mtime 20
+  128  man find
+  129  find /home -mtime 20
+  130  find /home -mtime +20
+  131  find /home -mtime -20
+  132  find /home -mtime 21
+  133  find /home -atime 1
+  134  find /home -atime -1
+  135  find /home -atime 2
+  136  find /home -atime 3
+  137  find /home -atime 12
+  138  find /home -atime 1
+  139  find /home -mtime 1
+  140  vi commandslearning.txt 
+  141  fing . -user priyanka
+  142  find . -user priyanka
+  143  find /udacity -user priyanka
+  144  find  -user priyanka
+  145  pwd
+  146  find  -user priyanka
+  147  pwd
+  148  find /home/priyanka/python_practice  -user priyanka
+  149  find /home/priyanka/python_practice/udacity  -user priyanka
+  150  find -user priyanka /home/priyanka/python_practice/udacity  
+  151  find /home/priyanka/python_practice/udacity  -atime 2
+  152  find /home/priyanka/python_practice/udacity  -atime 1
+  153  find /home/priyanka/python_practice  -atime 1
+  154  find /home/priyanka/python_practice  -atime 2
+  155  find /home/priyanka/python_practice  -mtime 2
+  156  find /home/priyanka/python_practice  -mtime +2
+  157  find /home/priyanka/python_practice  -mtime +12
+  158  find /home/priyanka/python_practice  -mtime -12
+  159  find /home/priyanka/python_practice  -mtime -4
+  160  find -user priyanka /home/priyanka/python_practice/udacity  
+  161  find /home/priyanka/python_practice  -name "eva*"
+  162  find /home/priyanka/python_practice  -name ".*"
+  163  find /home/priyanka/python_practice  -name "*"
+  164  find /home/priyanka/python_practice  -type d -name "udac*"
+  165  find /home/priyanka/python_practice  -type d -name "*"
+  166  history >find_practice
+  167  vi find_practice 
+  168  man find
+  169  man cut
+  170  vi commandslearning.txt 
+  171  vi history_commands 
+  172  grep -c "^&"
+  173  grep -c "^&" .
+  174  grep -c "^&" *
+  175  grep -c "^&" 
+  176  ls lrt
+  177  ls -lrt
+  178  grep -c "^&" for.py
+  179  vi for.py 
+  180  grep -c "^&" for.py
+  181  vi for.py 
+  182  grep -c "^&" for.py
+  183  grep -c "for" for.py
+  184  grep -c "for$" for.py
+  185  grep -c "^$" for.py
+  186  grep -c "..........." for.py
+  187  grep -c "..........." 
+  188  grep -c "..........." class.py
+  189  grep -c "." class.py
+  190  grep -c "" class.py
+  191  vi class.py
+  192  grep -c "class" class.py
+  193  vi class.py
+  194  grep -c "arya" class.py
+  195  grep -c "iarya*" class.py
+  196  grep -c "arya*" class.py
+  197  grep -c "arya+" class.py
+  198  grep -c "arya?" class.py
+  199  grep -c "class?" class.py
+  200  grep -c "class+" class.py
+  201  cut -c1-3 class.py
+  202  cut -c1- class.py
+  203  cut -c1-2 class.py
+  204  cut -c- class.py
+  205  cut -c0- class.py
+  206  cut -c1- class.py
+  207  cut -c-9 class.py
+  208  cut -c2-9 class.py
+  209  cut -c2-10 class.py
+  210  cut -d class.py
+  211  cut -d"." class.py
+  212  cut -d"\." class.py
+  213  man cut
+  214  cut -d":" class.py
+  215  vi eva.txt
+  216  cut -d":" eva.txt
+  217  cut -d" " eva.txt
+  218  cut -d eva.txt
+  219  vi eva.txt
+  220  cut -d":" eva.txt
+  221  man cut
+  222  cut -d":" -f1-4 eva.txt
+  223  cut -d" " -f1-4 eva.txt
+  224  cut -d" " -f1- eva.txt
+  225  cut -d" " -f-2 eva.txt
+  226  vi eva.txt
+  227  cut -d" " -f-2 eva.txt
+  228  cut -d" " -f1-2 eva.txt
+  229  cut -d" " -f1-3 eva.txt
+  230  cut -d" " -f-3 eva.txt
+  231  cut -d" " -f2-3 eva.txt
+  232  cut -d":" -f1 eva.txt
+  233  vi eva.txt
+  234  cut -d":" -f1 eva.txt
+  235  cut -d':' -f1 eva.txt
+  236  cut -d'' -f1 eva.txt
+  237  cut -d' ' -f1 eva.txt
+  238  cut -d'.' -f1 eva.txt
+  239  cut -d':' -f1 eva.txt
+  240  history >cutcommand.txt

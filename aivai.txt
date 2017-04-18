@@ -1,0 +1,2 @@
+/home/priyanka/python_practice/fileoperations/pp.txt
+/home/priyanka/python_practice/udacity/pp.txt
