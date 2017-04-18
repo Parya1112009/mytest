@@ -1,6 +1,6 @@
-dict ={"name":"priyanka","age":"29","status":"married","children":"eva"}
-for k,v in dict.items():
-  print k,'corresponds to',v
-print "\n***********take a look below  at dict.iteritems**************\n"
-for k,v in dict.iteritems():
-  print k,'corresponds to',v 
+def f(n):
+  for x in range(n): 
+    print  x**3
+for x1 in range(f(5)):
+  print next(x1) 
+ 
