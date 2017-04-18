@@ -1,5 +1,7 @@
-dict ={"name":"priyanka","age":"29","status":"married","children":"eva"}
-for k in dict.values():
-  print k
-for k in dict.keys():
-  print k 
+import subprocess
+import time
+print "wait for 5 seconds",time.sleep(3) 
+a = subprocess.check_output('ls -lrt',shell =True)
+#a = a.split(" ")
+print a
+ 
