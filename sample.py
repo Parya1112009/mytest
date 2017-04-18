@@ -1,5 +1,2 @@
-import re
-str = "hello world"
-match = re.search(r"(h.....)(w....)",str)
-print match.group(0)
- 
+f = lambda x,y:x+y
+print f(2,4) 

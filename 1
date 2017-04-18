@@ -1,5 +1,4 @@
-count = 0
-with open("pp.txt","r") as f:
-  for i in f.readlines(): 
-#    i = i.strip("\n")  
-    print i  
+import re
+str = " in89 89999       my 87      23name is priyanka  "      
+match = re.matc(r'[\d*\s*],str)
+print match.group() 
